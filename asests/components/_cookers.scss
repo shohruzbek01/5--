@@ -1,0 +1,22 @@
+.cookers{
+    width: 100%;
+    &-title{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        &-text{
+            color: black;
+            font-weight: 600;
+            font-size: 24px;
+            &-brown{
+                color:#FF7400 ;
+            }
+        }
+
+    }
+    &-row{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+}

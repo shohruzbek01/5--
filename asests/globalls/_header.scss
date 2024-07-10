@@ -1,0 +1,52 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.734);
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    &-row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-nav{
+        display: flex;
+       gap: 20px;
+       &-link{
+        color: white;
+        &-border{
+            width: 2px;
+            height: 40px;
+            background-color: white;
+            border-radius: 1px;
+        }
+     
+       }
+       &-link:hover{
+        color: #ff7300c6;
+    }
+    }
+    &-call{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    &-number{
+    color: white;
+    }
+    &-number:hover{
+        color:#ff7300c6;
+    }
+    }
+    &-button{
+        width: 100px;
+        height: 50px;
+        background-color: #FF7400;
+        border-radius: 2px;
+        margin-right: 20px;
+        &-text{
+            color: white;
+        }
+    }
+    &-button:hover{
+        background-color: #ff7300c6;
+    }
+}

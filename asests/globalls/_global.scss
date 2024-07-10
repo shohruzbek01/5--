@@ -1,0 +1,28 @@
+.wrapper{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20 px;
+  }
+  a{
+    text-decoration: none;
+}
+textarea,
+label,
+input,  
+button,
+select{
+    border: none;
+    background: none;
+}
+::placeholder{
+    color: aliceblue;
+}

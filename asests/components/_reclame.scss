@@ -1,0 +1,39 @@
+.reclame{
+    width: 100%;
+    &-row{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    &-left-block{
+        margin-left: 50px;
+        &-name{
+            &-text{
+                color: rgb(28, 16, 16);
+                font-weight:700;
+                font-size:30px;
+                &-brown{
+                    color: #FF7400;
+                }
+            }
+    }
+    &-text{
+      max-width:370px;
+     line-height:28px;
+     color: #656363; 
+    }
+   &-statistic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    &-number{
+        color: #BC9060;
+        font-size: 30px;
+    }
+   }
+}
+&-right-block{
+    margin-top: 50px;
+}
+}

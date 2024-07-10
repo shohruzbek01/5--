@@ -1,0 +1,258 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.734);
+  width: 100%;
+  height: 150px;
+  padding-top: 50px;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+.header-nav-link {
+  color: white;
+}
+.header-nav-link-border {
+  width: 2px;
+  height: 40px;
+  background-color: white;
+  border-radius: 1px;
+}
+.header-nav-link:hover {
+  color: rgba(255, 115, 0, 0.7764705882);
+}
+.header-call {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-call-number {
+  color: white;
+}
+.header-call-number:hover {
+  color: rgba(255, 115, 0, 0.7764705882);
+}
+.header-button {
+  width: 100px;
+  height: 50px;
+  background-color: #FF7400;
+  border-radius: 2px;
+  margin-right: 20px;
+}
+.header-button-text {
+  color: white;
+}
+.header-button:hover {
+  background-color: rgba(255, 115, 0, 0.7764705882);
+}
+
+.wrapper {
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20 px;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea,
+label,
+input,
+button,
+select {
+  border: none;
+  background: none;
+}
+
+::-moz-placeholder {
+  color: aliceblue;
+}
+
+::placeholder {
+  color: aliceblue;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+}
+.banner-row {
+  display: flex;
+  flex-direction: column;
+}
+.banner-img {
+  width: 1500px;
+  height: 500px;
+  position: relative;
+}
+.banner-welcome {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 400px;
+  line-height: 60px;
+  color: #FF7400;
+}
+.banner-welcome-text {
+  font-size: 60px;
+  font-weight: 700;
+  color: #FF7400;
+}
+.banner-button {
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  background-color: #FF7400;
+}
+.banner-button-text {
+  color: aliceblue;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.banner-button:hover {
+  background-color: rgba(255, 115, 0, 0.7764705882);
+}
+.banner-block {
+  width: 229px;
+  height: 220px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  top: 115%;
+}
+.banner-block-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.banner-block-name {
+  color: black;
+}
+.banner-block-name-brown {
+  color: #FF7400;
+}
+.banner-block-name-black {
+  max-width: 200px;
+  line-height: 20px;
+  color: #656363;
+}
+.banner-block-wrap :hover {
+  border: 1px solid #FF7400;
+}
+
+.reclame {
+  width: 100%;
+}
+.reclame-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.reclame-left-block {
+  margin-left: 50px;
+}
+.reclame-left-block-name-text {
+  color: rgb(28, 16, 16);
+  font-weight: 700;
+  font-size: 30px;
+}
+.reclame-left-block-name-text-brown {
+  color: #FF7400;
+}
+.reclame-left-block-text {
+  max-width: 370px;
+  line-height: 28px;
+  color: #656363;
+}
+.reclame-left-block-statistic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.reclame-left-block-statistic-number {
+  color: #BC9060;
+  font-size: 30px;
+}
+.reclame-right-block {
+  margin-top: 50px;
+}
+
+.menu-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.menu-right-about {
+  font-size: 14px;
+  font-weight: 400;
+}
+.menu-right-img-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.gallery {
+  width: 100%;
+}
+.gallery-title {
+  display: flex;
+  justify-content: center;
+}
+.gallery-title-text {
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+}
+.gallery-title-brown {
+  color: #FF7400;
+}
+.gallery-imges-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.cookers {
+  width: 100%;
+}
+.cookers-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cookers-title-text {
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+}
+.cookers-title-text-brown {
+  color: #FF7400;
+}
+.cookers-row {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

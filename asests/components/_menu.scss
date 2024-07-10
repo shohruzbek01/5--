@@ -1,0 +1,21 @@
+.menu{
+ &-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+ }
+&-right{
+    &-about{
+        font-size: 14px;
+        font-weight: 400;
+    }
+&-img-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+}
+
+}
